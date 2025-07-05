@@ -1,15 +1,15 @@
 import React, { useState, useCallback } from 'react';
-import { Screen } from './types';
-import HomeScreen from './screens/HomeScreen';
-import ChatbotScreen from './screens/ChatbotScreen';
-import DocumentAssistantScreen from './screens/DocumentAssistantScreen';
-import ProfileScreen from './screens/ProfileScreen';
-import SummarizerScreen from './screens/SummarizerScreen';
-import JurisprudenceScreen from './screens/JurisprudenceScreen';
-import AgendaScreen from './screens/NotificationsScreen';
-import BottomNav from './components/BottomNav';
-import LoginScreen from './screens/LoginScreen';
-import RegisterScreen from './screens/RegisterScreen';
+import { Screen } from './types.ts';
+import HomeScreen from './screens/HomeScreen.tsx';
+import ChatbotScreen from './screens/ChatbotScreen.tsx';
+import DocumentAssistantScreen from './screens/DocumentAssistantScreen.tsx';
+import ProfileScreen from './screens/ProfileScreen.tsx';
+import SummarizerScreen from './screens/SummarizerScreen.tsx';
+import JurisprudenceScreen from './screens/JurisprudenceScreen.tsx';
+import AgendaScreen from './screens/AgendaScreen.tsx';
+import BottomNav from './components/BottomNav.tsx';
+import LoginScreen from './screens/LoginScreen.tsx';
+import RegisterScreen from './screens/RegisterScreen.tsx';
 
 const App: React.FC = () => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
