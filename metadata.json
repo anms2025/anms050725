@@ -1,0 +1,6 @@
+{
+  "name": "Asistente Legal Chile",
+  "description": "Una aplicación de asistente legal para abogados en Chile, impulsada por IA, para consultas, resúmenes y redacción de documentos. Específicamente diseñada para el sistema legal chileno.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
